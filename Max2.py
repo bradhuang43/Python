@@ -7,7 +7,7 @@ def max(a, b):
     else:
         return b
 
-a = int(input('Enter 1st number: '))
-b = int(input('Enter 2nd number: '))
+a = float(input('Enter 1st number: '))
+b = float(input('Enter 2nd number: '))
 
 print(f'max of {a} and {b} is {max(a, b)}')
