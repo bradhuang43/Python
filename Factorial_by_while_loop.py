@@ -1,7 +1,8 @@
 def Factorial(n):
     F=1
-    for I in range(2,n+1):
-        F=F*I
+    while (n > 0):
+        F=F*n
+        n=n-1
     return (F)
 
 n=0.5
